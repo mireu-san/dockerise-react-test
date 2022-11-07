@@ -1,0 +1,6 @@
+FROM node:18-buster
+
+WORKDIR /code
+
+COPY package.json /code/package.json
+COPY package-lock.json /code/package-lcok.json
